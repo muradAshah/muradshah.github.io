@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Murad Shah</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#connect">Connect</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about-me">
+        <div class="about-container">
+            <img src="image.jpeg" alt="My Picture" class="profile-pic">
+            <div class="about-text">
+                <h1>About Me</h1>
+                <p>My name is Murad Shah, and I am pursuing dual degrees in Computer Science and Finance. I am deeply passionate about both fields in their entirety, from software engineering and systems design to markets, investment, and financial theory, and most of all the crossover point where the two meet. I am driven by the belief that the future belongs to those who can fluently speak both languages. I also take great pleasure in mentoring my peers and supporting their personal and professional growth. In my free time, I spend a lot of time on sewing and garment-making, a passion I have had since age three, and I swim to keep my mind clear and balanced.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="resume">
+        <h1>Resume</h1>
+        <a href="resume.pdf" target="_blank"><img src="resume.png" alt="Resume" class="preview-image"></a>
+    </section>
+
+    <section id="portfolio">
+        <h1>Portfolio</h1>
+        <a href="portfolio.pdf" target="_blank"><img src="portfolio.png" alt="Portfolio" class="preview-image"></a>
+    </section>
+
+    <section id="projects">
+        <h1>Projects</h1>
+        <div class="recommendation-container">
+            <a href="finofin.pdf" target="_blank"><img src="project1.png" alt="Finofin Live Equity Report" class="preview-image"></a>
+            <!-- Project 2 and 3 will be added here -->
+        </div>
+    </section>
+
+    <section id="connect">
+        <h1>Connect</h1>
+        <p>Find me on LinkedIn and GitHub.</p>
+        <div class="connect-buttons">
+            <a href="https://www.linkedin.com/in/murad-shah" target="_blank" class="linkedin-button">LinkedIn</a>
+            <a href="https://github.com/muradAshah" target="_blank" class="github-button">GitHub</a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1>Get in Touch</h1>
+        <form action="https://formspree.io/f/mldejvwk" method="POST">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="reason">Reason for Contact</label>
+            <textarea id="reason" name="reason" rows="4" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
